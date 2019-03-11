@@ -21,6 +21,7 @@ trk = incline(trk);
 webmap
 wmline(trk)
 
+
 figure
 subplot(3,1,1)
 plot(trk.DistanceCumulative,trk.Elevation);
