@@ -46,7 +46,6 @@ SpeedAverage=mean(speed);
 PowerAverage=mean(Wpos);
 TotalDistance=sum(trk.Distance);
 
-
 figure
 subplot(3,1,1)
 geoshow(trk.Latitude,trk.Longitude)
